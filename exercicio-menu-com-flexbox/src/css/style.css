@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+a:visited {
+    color: var(--main-text-color);
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.menu li a {
+    padding: 11px 7px;
+    color: var(--main-text-color);
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: var(--highlight-text-color);
+    background-color: var(--main-color);
+}
+
+.menu li button {
+    border: none;
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: var(--highlight-text-color);
+    padding: 11px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}

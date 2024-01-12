@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .container {
+        gap: 0;
+        margin: 30px 0px;
+    }
+
+    /* .nome-da-pintura {
+        top: -80px;
+    }
+
+    .pintor {
+        top: -80px;
+    } */
+}

@@ -1,0 +1,10 @@
+
+@media (min-width: 768px) {
+    .card {
+        padding-inline: 50px;
+        width: 386px;
+    }
+    .card .advice{
+        padding-bottom: 35px;
+    }
+ }

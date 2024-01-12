@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 300px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados{
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 18px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    max-width: 96px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.engajamento {
+    border-top: hsl(231, 14%, 90%) solid 2px;
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+}
+
+p:first-child, .destaquenonome{
+    font-weight: 700;
+}
+
+p:last-child, span{
+    color: hsl(227, 10%, 46%);
+}
